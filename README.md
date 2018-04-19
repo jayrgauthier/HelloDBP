@@ -15,12 +15,17 @@ A simple application for Software AG's Digital Business Platform (DBP). This pro
   
 ## Quick Start
 1. Start Command Central and Platform Manager (or two)
-1. Go to [Command Central UI] (https://localhost:8091/cce/web/#environment:ALL/t/0)
+1. Go to Command Central UI (https://localhost:8091/cce/web/#environment:ALL/t/0)
     1. Command Central, Platform Manager (sometimes two of them) - typically use Windows Servi
     1. Terracotta DB, Universal Messaging
     1. Integration Server, MwS, MashZone NextGen
     1. API Gateway (should auto-launch Event Data Store)
     1. API Portal
-1. Go to CloudStreams Download Page
+1. Install Cloudstreams Connector for IS
+    1. Go to CloudStreams Cumulocity Download Page (http://techcommunity.softwareag.com/ecosystem/communities/public/webmethods/products/cloudstreams/downloads/Cumulocity/index.html)
+    1. Click Download and Save file to disk
+    1. Move the downloaded WmCumulocityProvider.zip file to Integration Server replicate/inbound folder (C:\SoftwareAG\IntegrationServer\instances\default\replicate\inbound)
+    1. Open IS Administrator (http://localhost:5555)
+    1. Go to Packages > Management > Install
 
-This is a [link] (http://www.google.com)
+
