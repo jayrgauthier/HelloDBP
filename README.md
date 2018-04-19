@@ -26,6 +26,7 @@ A simple application for Software AG's Digital Business Platform (DBP). This pro
     1. Click Download and Save file to disk
     1. Move the downloaded WmCumulocityProvider.zip file to Integration Server replicate/inbound folder (C:\SoftwareAG\IntegrationServer\instances\default\replicate\inbound)
     1. Open IS Administrator (http://localhost:5555)
-    1. Go to Packages > Management > Install
+    1. Go to Packages > Management > Install Inbound Packages and Install WmCumulocityProvider.
+    1. Download the lastest HelloDBP package from [Resources](Resources) folder.
 
 
