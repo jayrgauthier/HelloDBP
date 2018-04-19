@@ -1,0 +1,12 @@
+HelloDBP.HelloEvents.ThingEvent : event
+    @EventId(path = "_guid")
+{
+    EventKind : string
+    EventTime : time
+    Id        : string
+    Name      : string
+    Health    : int64
+    Account   : string
+    _guid     : string
+    _isData   : bytes
+}

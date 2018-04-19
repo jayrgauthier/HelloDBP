@@ -1,0 +1,10 @@
+HelloDBP.HelloEvents.ThingAlert : event
+    @EventId(path = "_guid")
+{
+    Id       : string
+    Alert    : string
+    Time     : time
+    Severity : string
+    _guid    : string
+    _isData  : bytes
+}
