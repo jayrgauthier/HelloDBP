@@ -22,3 +22,5 @@ A simple application for Software AG's Digital Business Platform (DBP). This pro
     1. API Gateway (should auto-launch Event Data Store)
     1. API Portal
 1. Go to CloudStreams Download Page
+
+This is a [link] (http://www.google.com)
