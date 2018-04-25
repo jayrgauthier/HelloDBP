@@ -27,6 +27,6 @@ A simple application for Software AG's Digital Business Platform (DBP). This pro
     1. Open [IS Administrator](http://localhost:5555)
     1. Go to Packages > Management > Install Inbound Packages and Install WmCumulocityProvider.
 1. Install HelloDBP IS package
-    1. Download the lastest HelloDBP package from [Resources](Resources) folder.
+    1. Download the lastest HelloDBP package from [IS](IS) folder.
 
 
