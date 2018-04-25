@@ -14,9 +14,9 @@ A simple application for Software AG's Digital Business Platform (DBP). This pro
     - Event Data Store
   
 ## Quick Start
-1. Start Command Central and Platform Manager (or two)
+1. Start Command Central and Platform Manager (sometimes two of them) via Windows Services or startup.bat/sh
 1. Go to [Command Central UI](https://localhost:8091/cce/web/#environment:ALL/t/0)
-    1. Command Central, Platform Manager (sometimes two of them) - typically use Windows Servi
+    1. Command Central, Platform Manager 
     1. Terracotta DB, Universal Messaging
     1. Integration Server, MwS, MashZone NextGen
     1. API Gateway (should auto-launch Event Data Store)
@@ -27,6 +27,7 @@ A simple application for Software AG's Digital Business Platform (DBP). This pro
     1. Move the downloaded WmCumulocityProvider.zip file to Integration Server replicate/inbound folder (C:\SoftwareAG\IntegrationServer\instances\default\replicate\inbound)
     1. Open [IS Administrator](http://localhost:5555)
     1. Go to Packages > Management > Install Inbound Packages and Install WmCumulocityProvider.
+1. Install HelloDBP IS package
     1. Download the lastest HelloDBP package from [Resources](Resources) folder.
 
 
