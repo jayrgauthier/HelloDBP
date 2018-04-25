@@ -15,8 +15,7 @@ A simple application for Software AG's Digital Business Platform (DBP). This pro
   
 ## Quick Start
 1. Start Command Central and Platform Manager (sometimes two of them) via Windows Services or startup.bat/sh
-1. Go to [Command Central UI](https://localhost:8091/cce/web/#environment:ALL/t/0)
-    1. Command Central, Platform Manager 
+1. Go to [Command Central UI](https://localhost:8091/cce/web/#environment:ALL/t/0) and start servers in this order:
     1. Terracotta DB, Universal Messaging
     1. Integration Server, MwS, MashZone NextGen
     1. API Gateway (should auto-launch Event Data Store)
