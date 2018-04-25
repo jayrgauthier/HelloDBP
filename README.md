@@ -26,6 +26,7 @@ A simple application for Software AG's Digital Business Platform (DBP). This pro
     1. Move the downloaded WmCumulocityProvider.zip file to Integration Server replicate/inbound folder (C:\SoftwareAG\IntegrationServer\instances\default\replicate\inbound)
     1. Open [IS Administrator](http://localhost:5555)
     1. Go to Packages > Management > Install Inbound Packages and Install WmCumulocityProvider.
+    1. Restart IS to reload CloudStreams with Cumulocity provider.
 1. Install HelloDBP IS package
     1. Download the lastest HelloDBP package from [IS](IS) folder.
     1. Go to Packages > Management > Install Inbound Packages and Install HelloDBP.zip.
