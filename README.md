@@ -32,8 +32,8 @@ A simple application for Software AG's Digital Business Platform (DBP). This pro
     1. Go to Packages > Management > Install Inbound Packages and Install HelloDBP.zip.
     1. Open Designer Service Development perspective and use File > Sync Document Types > All Out-of-Sync... to sync the two DES types to the common repository.
 1. Provide URL and Credentials for Cumulocity tenant
-    #. Go to [IS CloudStreams](http://localhost:5555/WmCloudStreams/) page
-    #. Click on Cumulocity provider, disable the CumulocityConnection, Edit, and change the URL, User and Password.
+    1. Go to [IS CloudStreams](http://localhost:5555/WmCloudStreams/) page
+    1. Click on Cumulocity provider, disable the CumulocityConnection, Edit, and change the URL, User and Password.
     #. Re-enable the CumulocityConnection.
 1. Enable the Event Persistence Connection
     1. Go to [IS JDBC Adapter](http://localhost:5555/WmRoot/adapter-index.dsp?url=%2FWmART%2FListResources.dsp%3FadapterTypeName%3DJDBCAdapter%26dspName%3D.LISTRESOURCES&adapter=JDBCAdapter&text=webMethods+Adapter+for+JDBC&help=true) page
