@@ -30,6 +30,7 @@ A simple application for Software AG's Digital Business Platform (DBP). This pro
 1. Install HelloDBP IS package
     1. Download the lastest HelloDBP package from [IS](IS) folder.
     1. Go to Packages > Management > Install Inbound Packages and Install HelloDBP.zip.
+    1. Open Designer Service Development perspective and use File > Sync Document Types > All Out-of-Sync... to sync the two DES types to the common repository.
 1. Create the Things dataset in Terracotta DB
     1. One way to do this is via the [Terracotta DB Adapter in IS](http://localhost:5555/WmRoot/adapter-index.dsp?url=%2FWmART%2FListResources.dsp%3FadapterTypeName%3Dcom.wm.adapter.wmtcdb.TCDBAdapter%26dspName%3D.LISTRESOURCES&adapter=com.wm.adapter.wmtcdb.TCDBAdapter&text=webMethods+Adapter+for+Terracotta+DB&help=true)
 1. Clone this Git Repository using Designer Git perspective
