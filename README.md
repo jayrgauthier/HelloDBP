@@ -35,6 +35,17 @@ A simple application for Software AG's Digital Business Platform (DBP). This pro
 1. Clone this Git Repository using Designer Git perspective
     1. In Designer, click the "Open Perspective" button or menu and choose Git.
     1. Click on Clone Git Repository link.
-    1. In the URI, paste the link to this repository (from the green Copy / Clone Repository button).
+    1. In the URI, paste the link to this repository (from the green "Clone or download" button).
+    1. Click "Next" twice and then check the box "Import all existing Eclipse projects after clone finishes"
+    1. Click "Finish".
+1. Deploy the HelloDBO process
+    1. Open the Dynamic Process Development perspective in Designer
+    1. Open the HelloDBO - 1 process.
+    1. Click on "Upload for Dynamic Process" button.
+    1. When asked to deploy the "Analyze Alert" task, say Yes.
+    1. Provide MwS sysadmin credentials.
+    1. After a minute, navigate to [Business Console](http://localhost:8585/business.console#/), you should see the HelloDBO and Analyze Alert types now.
+    
+    
 
 
