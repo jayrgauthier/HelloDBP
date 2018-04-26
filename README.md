@@ -39,6 +39,7 @@ A simple application for Software AG's Digital Business Platform (DBP). This pro
     1. In the URI, paste the link to this repository (from the green "Clone or download" button).
     1. Click "Next" twice and then check the box "Import all existing Eclipse projects after clone finishes"
     1. Click "Finish".
+    1. You must re-build the HelloApama project using Project > Clean... action in Designer.
 1. Deploy the HelloDBO process
     1. Open the Dynamic Process Development perspective in Designer
     1. Open the HelloDBO - 1 process.
