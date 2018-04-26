@@ -31,6 +31,15 @@ A simple application for Software AG's Digital Business Platform (DBP). This pro
     1. Download the lastest HelloDBP package from [IS](IS) folder.
     1. Go to Packages > Management > Install Inbound Packages and Install HelloDBP.zip.
     1. Open Designer Service Development perspective and use File > Sync Document Types > All Out-of-Sync... to sync the two DES types to the common repository.
+1. Provide URL and Credentials for Cumulocity tenant
+    #. Go to [IS CloudStreams](http://localhost:5555/WmCloudStreams/) page
+    #. Click on Cumulocity provider, disable the CumulocityConnection, Edit, and change the URL, User and Password.
+    #. Re-enable the CumulocityConnection.
+1. Enable the Event Persistence Connection
+    1. Go to [IS JDBC Adapter](http://localhost:5555/WmRoot/adapter-index.dsp?url=%2FWmART%2FListResources.dsp%3FadapterTypeName%3DJDBCAdapter%26dspName%3D.LISTRESOURCES&adapter=JDBCAdapter&text=webMethods+Adapter+for+JDBC&help=true) page
+    1. Edit the EventStoreConnection
+    1. In the "Other Properties" field, ensure the proper path to the suite folder.
+    1. Enable the EventStoreConnection
 1. Create the Things dataset in Terracotta DB
     1. One way to do this is via the [Terracotta DB Adapter in IS](http://localhost:5555/WmRoot/adapter-index.dsp?url=%2FWmART%2FListResources.dsp%3FadapterTypeName%3Dcom.wm.adapter.wmtcdb.TCDBAdapter%26dspName%3D.LISTRESOURCES&adapter=com.wm.adapter.wmtcdb.TCDBAdapter&text=webMethods+Adapter+for+Terracotta+DB&help=true)
 1. Clone this Git Repository using Designer Git perspective
@@ -47,7 +56,10 @@ A simple application for Software AG's Digital Business Platform (DBP). This pro
     1. When asked to deploy the "Analyze Alert" task, say Yes.
     1. Provide MwS sysadmin credentials.
     1. After a minute, navigate to [Business Console](http://localhost:8585/business.console#/), you should see the HelloDBO and Analyze Alert types now.
-    
+1. Import MashZone assets
+    1. Go to folder MashZoneNG > prestocli > bin
+    1. padmin importAlias -u <User> -w <Password> -f "<local git path>\HelloDBP\MashZone\Aliases.zip"
+    1. padmin importDashboard -u <User> -w <Password> -f "<local git path>\HelloDBP\MashZone\Dashboard.zip"
     
 
 
