@@ -60,6 +60,7 @@ A simple application for Software AG's Digital Business Platform (DBP). This pro
     1. Go to folder MashZoneNG > prestocli > bin
     1. padmin importAlias -u <User> -w <Password> -f "<local git path>\HelloDBP\MashZone\Aliases.zip"
     1. padmin importDashboard -u <User> -w <Password> -f "<local git path>\HelloDBP\MashZone\Dashboard.zip"
+    1. Restart MashZone NextGen. This is needed for the Event Services to restart properly.
     
 
 
