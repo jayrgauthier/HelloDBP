@@ -40,6 +40,10 @@ A simple application for Software AG's Digital Business Platform (DBP). This pro
     1. Edit the EventStoreConnection
     1. In the "Other Properties" field, ensure the proper path to the suite folder.
     1. Enable the EventStoreConnection
+1. Change the machine name for HelloREST API Descriptor
+    1. Go to Designer Service Development perspective.
+    1. Lock for Edit HelloREST, then open it.
+    1. In the Host:Port field, change it to your local machine name.
 1. Create the Things dataset in Terracotta DB
     1. One way to do this is via the [Terracotta DB Adapter in IS](http://localhost:5555/WmRoot/adapter-index.dsp?url=%2FWmART%2FListResources.dsp%3FadapterTypeName%3Dcom.wm.adapter.wmtcdb.TCDBAdapter%26dspName%3D.LISTRESOURCES&adapter=com.wm.adapter.wmtcdb.TCDBAdapter&text=webMethods+Adapter+for+Terracotta+DB&help=true)
 1. Clone this Git Repository using Designer Git perspective
