@@ -65,6 +65,8 @@ A simple application for Software AG's Digital Business Platform (DBP). This pro
     1. padmin importAlias -u <User> -w <Password> -f "<local git path>\HelloDBP\MashZone\Aliases.zip"
     1. padmin importDashboard -u <User> -w <Password> -f "<local git path>\HelloDBP\MashZone\Dashboard.zip"
     1. Restart MashZone NextGen. This is needed for the Event Services to restart properly.
-    
-
-
+1. Create Apama correlator instance in Command Central
+    1. Ensure Command Central and all SPM runtimes are started.
+    1. From directory <suite folder>\CommandCentral\client\bin, run:
+        - sagcc exec templates composite import -i <local path>\hello-apama.yaml overwrite=true
+        - sagcc exec templates composite apply sag-apama-correlator nodes=<local installation name> repo.product=<product repo alias> repo.fix=<fix repo alias> --sync-job --wait 360
