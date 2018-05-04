@@ -15,7 +15,7 @@ environments:
 templates:
   correlator:
     licenses:
-      "Apama/command-central/instances/correlator/HelloApama2/ApamaServerLicense.xml": "${apama.pamserver.license.key}" # license file
+      "Apama/command-central/instances/correlator/HelloApama/ApamaServerLicense.xml": "${apama.pamserver.license.key}" # license file
     fixes: ${apama.fixes}
     products:
       PAMspm:     # Apama | Platform Manager Plug-in
