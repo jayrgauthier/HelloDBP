@@ -71,3 +71,7 @@ A simple application for Software AG's Digital Business Platform (DBP). This pro
     1. From directory (suite folder)\CommandCentral\client\bin, run:
         - sagcc exec templates composite import -i (local git path)\HelloDBP\CC\templates\hello-apama.yaml overwrite=true
         - sagcc exec templates composite apply sag-apama-correlator nodes=(local installation name) repo.product=(product repo alias) repo.fix=(fix repo alias) --sync-job --wait 360
+
+## To Do
+1. Create a Business Console AppSpace and Gadget to be a small front end for ThingCo's customers to query for Things registered to their account, get a history of Thing Health for each one, rename a Thing, delete a Thing or create a new Thing.
+1. Create a WmTestSuite project for HelloDBP.
